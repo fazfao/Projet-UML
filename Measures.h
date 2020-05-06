@@ -8,8 +8,8 @@ class Measures
 public:
 
     Measures ( const Measures & unMeasures );
-
     Measures();
+    virtual ~Measures();
 
 protected:
 

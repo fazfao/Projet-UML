@@ -8,8 +8,8 @@ class Individual
 public:
 
     Individual ( const Individual & unIndividual );
-
     Individual();
+    virtual ~Individual();
 
 protected:
 

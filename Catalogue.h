@@ -9,8 +9,8 @@ class Catalogue
 public:
 
     Catalogue ( const Catalogue & unCatalogue );
-
     Catalogue();
+    virtual ~Catalogue();
 
 protected:
 

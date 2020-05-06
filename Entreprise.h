@@ -9,8 +9,8 @@ class Entreprise : public Utilisateurs
 public:
 
     Entreprise ( const Entreprise & unEntreprise );
-
     Entreprise();
+    virtual ~Entreprise();
 
 protected:
 

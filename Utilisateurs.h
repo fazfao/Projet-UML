@@ -14,7 +14,7 @@ public:
     Utilisateurs ( const Utilisateurs & unUtilisateurs );
     Utilisateurs();
     Utilisateurs(const string mail, const string password);
-    virtual ~User();
+    virtual ~Utilisateurs();
 
 protected:
     string mail;
