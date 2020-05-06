@@ -7,10 +7,10 @@ class GouvernmentalAgency
 
 public:
 
-    GouvernmentalAgency ( const GouvernmentalAgency & unGouvernmentalAgency )m
+    GouvernmentalAgency ( const GouvernmentalAgency & unGouvernmentalAgency );
     GouvernmentalAgency();
     virtual ~GouvernmentalAgency();
-	SemsorState GetSensorState(int sensorId);
+	SensorState GetSensorState(int sensorId);
 	double MeanAirQuality(Date adate,int lat,int long,int radius,int attId);
 	double MeanAirQuality(Date begin,Date end,int lat,int long,int radius,int attId);
 	double MeanAirQuality(Date begin,Date end,int duration,int lat,int long,int radius,int attId);

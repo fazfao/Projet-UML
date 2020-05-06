@@ -12,7 +12,10 @@ public:
     virtual ~Individual();
 
 protected:
+	int afficherPoint();
 
+	int numberMeasures;
+	int numberValidatedMeasures;
 };
 
 #endif // INDIVIDUAL_H
